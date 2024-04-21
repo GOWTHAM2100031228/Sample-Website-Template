@@ -1,0 +1,138 @@
+body{
+    border: 0;
+}
+
+.new-nav{
+    height: 80px;
+    
+}
+.navbar-brand{
+    padding: 200px;
+}
+.new-items{
+    margin-left: auto;
+}
+#background-video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.header{
+    height: 100vh;
+    text-align: center;
+    margin-top: -40px;
+}
+.head-p{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.head-h1{
+    font-size: 100px;
+    color:rgb(146, 4, 4);
+}
+.nav-button{
+    border: 2px solid black;
+    display:inline-block;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-weight: bold ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nav-button:hover{
+    background-color: red;
+    transform: scale(1.02);
+}
+.header-img{
+    height:500px;
+    width: 650px;
+}
+.header-p{
+    padding-top:40px;
+    font-weight: 20;
+}
+.header-button1{
+    background-color: black;
+    color: aliceblue;
+}
+.header-button2{
+    background-color: black;
+    color: aliceblue;
+}
+.header-button1:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.03);
+}
+.header-button2:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.03);
+}
+.data-section{
+    background-image: url(https://res.cloudinary.com/duqm8ncw7/image/upload/v1696512483/samples/landscapes/beach-boat.jpg);
+    height: 100vh;
+}
+.whole-h1{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.box-section{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    margin: 20px;
+    border: 6px solid rgb(21, 20, 20);
+    text-align: center;
+    height: 400px;
+}
+.new-h1{
+    padding-top: 30px;
+    font-weight: bold;   
+}
+.new-p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.data-button{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+.data-button:hover{
+    background-color: white;
+    color: black;
+}
+.contact-section{
+    background-color: rgb(81, 168, 168);
+    height: 90vh;
+}
+.contact-left{
+    text-align: center;
+}
+.contact-h1{
+    font-size: 50px;
+}
+.p-section{
+    padding-top: 30px;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    border: 2px solid black;
+    background: transparent;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+}
